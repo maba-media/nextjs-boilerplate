@@ -1,3 +1,10 @@
+import Title from './_title'
+
 export default function Home() {
-  return <h1>Olá mundo!</h1>
+  return (
+    <>
+      <Title title="Titulo Página" />
+      <h1>Olá Mundo</h1>
+    </>
+  )
 }
